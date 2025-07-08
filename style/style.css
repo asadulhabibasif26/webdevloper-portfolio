@@ -24,13 +24,19 @@
     border-radius: 5px;
     border: none;
 }
-
+/* --header-- */
+header{
+    background-image: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
 
 /* ---navbar---- */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 230px;
 }
 .nav-title{
     font-weight: 800;
@@ -47,4 +53,30 @@ ul li{
 ul li a{
     text-decoration: none;
 
+}
+
+/* ---banner style--- */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.ban-text{
+    max-width: 585px;
+    margin: 0 35px 0 230px;
+}
+.ban-hi{
+    font-weight: bold;
+    font-size: 45px;
+}
+.ban-tital{
+    font-weight: bold;
+    font-size: 85px;
+}
+.ban-dsc{
+    font-size: 18px;
+}
+.ban-img{
+    width: 584px;
+    height: 676px;
 }
