@@ -213,3 +213,45 @@ footer input[type="text"] , input[type="email"]{
 .footer-column{
     width: 50%;
 }
+
+
+/* responsive media style section */
+
+@media screen and (max-width:576px){
+    .skill-contener, 
+    .about-items, 
+    .banner{
+        flex-direction: column;
+    }
+
+    .resume{
+        padding: 20px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .about{
+        padding: 20px;
+    }
+    .ban-img{
+        width: 100%;
+        height: auto;
+    }
+    .ban-text{
+        margin: 80px;
+    }
+    nav{
+        margin: 0px 0px 0px 80px;
+    }
+    nav > ul {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+}
